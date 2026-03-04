@@ -3,6 +3,7 @@ import React from 'react'
 import Container from '../Page/Container'
 import Image from '../Page/Image'
 import Flex from '../Page/Flex'
+import profile from '/src/assets/Logo.png'
 
 const Fotter = () => {
   return (
@@ -12,7 +13,7 @@ const Fotter = () => {
 
 <Flex className={"justify-between mt-12"}>
     <div className="">
-<Image imgSrc={"/src/assets/Logo.png"}/>
+<Image imgSrc={profile}/>
 <p className='text-[#6C7D93] tex-[18px] font-opensans font-normal leading-7 pt-[50px]'>Install any demo or template with a single click. You<br></br> can mix and match all the demos & templates. Every<br></br> demo can be turned into one or multi-page.</p>
 
     </div>
