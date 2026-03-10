@@ -4,3 +4,6 @@
   --font-opensans: "Open Sans", sans-serif;
   --font-kaithi: "Noto Sans Kaithi", sans-serif;
 }
+body{
+  overflow-x: hidden;
+}
